@@ -264,28 +264,64 @@ section{
     }
 }
 
-@media (max-width:641px){
-    body{
-        font-size: 12px;
+@media (max-width:600px){
+    header{
+        padding: 8px 20px;
+    }
+
+    .navigation a{
+        padding-left: 6px;
+    }
+
+    .title{
+        font-size: 1.3em;
+    }
+
+    .section{
+        padding: 80px 20px;
     }
 
     .main-content h2{
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
 
     .main-content h3{
-        font-size: 1.4em;
+        font-size: 1.2em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
     }
 }
 
 @media (max-width:300px){
-    body{
-        font-size: 10px;
+    header{
+        padding: 6px 20px;
     }
-}
 
-@media (max-width:200px){
-    body{
-        font-size: 8px;
+    .navigation a{
+        padding-left: 4px;
+    }
+
+    .title{
+        font-size: 1.1em;
+    }
+
+    .section{
+        padding: 60px 20px;
+    }
+
+    .main-content h2{
+        font-size: 0.5em;
+    }
+
+    .main-content h3{
+        font-size: 1em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
     }
 }
